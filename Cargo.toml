@@ -1,0 +1,18 @@
+[package]
+name = "hiveware"
+version = "0.1.1"
+authors = ["HivewareOS <hivewareos@protonmail.com>"]
+description = "A fast and minimal wrapper for the nix package manager"
+edition = "2021"
+documentation = "https://github.com/HivewareOS/hiveware"
+readme = "README.md"
+repository = "https://github.com/HivewareOS/hiveware"
+license = "GPL-3.0"
+keywords = ["rust", "cli", "hive", "nix", "hiveware"]
+categories = ["command-line-utilities"]
+homepage = "https://hiveware.netlify.app"
+
+[dependencies.clap]
+version = "3.0"
+default-features = false
+features = ["std", "derive"]
